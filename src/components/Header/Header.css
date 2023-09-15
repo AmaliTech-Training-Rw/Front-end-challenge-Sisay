@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    width: 1280px;
+    height: 145px;
+    border-bottom: solid 2px  #737373;
+    background-color: #000000;
+    
+
+}
+.container a,.search-txt{
+    text-decoration: none;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.logo{
+ position: absolute;
+ top: 25px;
+ left: 41px;
+ width: 237.63px;
+ height: 103px;
+ border: 0px, 0px, 2px, 0px, #000000;
+ background-image: url('./sw_logo.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.search{
+    display: flex;
+    width: 140px;
+    height: 32px;
+    position: absolute;
+    top: 65px;
+    left: 819px;
+    border: 0 0 2px 0;
+    gap: 11px;
+}
+.search-img{
+    width: 32px;
+    height: 32px;
+    background-image: url('./galaSearch0.png');
+    background-repeat: no-repeat;
+}
+.search-txt{
+    width: 97px;
+    height: 31px;
+    
+}
+.home, .lister{
+    position: absolute;
+    width: 83px;
+    height: 34px;
+    top: 63px;
+    left: 1036px;
+    border: 0px, 0px, 2px, 0px;
+
+}
+.lister{
+    left: 1151px;
+}
