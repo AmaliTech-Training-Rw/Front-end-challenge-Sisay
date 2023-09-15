@@ -11,7 +11,7 @@
     width: 829.16px;
     height: 849px;
     left: 410px;
-    background-image: url('./ob-PhotoRoom.png');
+    background-image: url('./Image/ob-PhotoRoom.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -73,44 +73,62 @@
 }
 .item-1, .item-2, .item-3{
     position: absolute;
-    display:flex;
     width: 362px;
     height: 211px;
     top: 833px;
     left: 48px;
     border-radius: 10px;
     border: solid 1px #FFFFFF;
-    color: #FFFFFF;
-    font-family: "Barlow";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: right;
-    vertical-align: bottom;
-   
-    background-image: url('./ob-PhotoRoom1.png');
-    background-size: cover;
+    background-image: url('./Image/ob-PhotoRoom1.png');
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     align-content: flex-end;
 
 }
 .item-2{
     left:444px;
+    background-image: url('./Image/Lukee\ 1\ 3.png');   
+    
 }
 .item-3{
     left: 854px;
+    background-image: url('./Image/y-removebg-preview\ 3.png');
 }
 .view{
-    position: absolute;
-    display:contents;
+    position: relative;
     width: 47px;
     height: 22px;
-    top: 1002px;
-    left: 344px; 
-    z-index: 200;  
+    top:  169px ;
+    left: 298px;  
+    color:#FFFFFF;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration: underline;
 
 }
-.item-1 .view{
-    left: 344px;
+.dots{
+    display: flex;
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    top:1082px;
+    left:593px;
+    justify-content: space-between;
+}
+.dot-1, .dot-2, .dot-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FFFFFF
+
+}
+.dot-1{
+    background-color: #FF0000;
+}
+a {
+    text-decoration: none;
 }
