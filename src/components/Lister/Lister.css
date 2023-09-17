@@ -1,0 +1,185 @@
+.lister-container{
+    display: flex;
+    width: 1280px;
+    top: -312px;
+    left: 815px;
+    flex-direction: column;
+    background-color: black;
+
+}
+.frame-container{
+    height: 129px;
+    width: 1280px;
+    border-bottom: solid 2px #737373;
+}
+.frame{
+    position: absolute;
+    display: flex;
+    width: 1,146px;
+    height: 45px;
+    top: 221px;
+    left: 67px;
+    gap: 31px;
+    color: white;
+    background-color: black;
+}
+
+.icon-txt{
+    display: flex;
+    width: 139px;
+    height: 35px
+
+}
+
+.season{
+    display: flex;
+    width: 165px;
+    height: 35px;
+    
+}
+
+
+ .icon{
+    width: 35px;
+    height: 35px;
+    background-image: url('./tdesign_film.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-txt .icon{
+    background-image: url('./ant-design_fire-filled.png');
+}
+.txt{
+    
+    font-family: "Barlow";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.season .txt{
+    width: 118px;
+    height: 27px;
+    left: 47px;
+}
+
+.icon-txt .txt{
+    width: 104px;
+    height: 17px;
+    left: 35px;
+
+}
+.search-container{
+    display: flex;
+    width: 192px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 2px white;
+    justify-content: space-between;
+
+}
+.gala-search, .charm-cross{
+    width: 32px;
+    height: 32px;
+    top: 6px;
+    left: 6px;
+    background-image: url('../Header/galaSearch0.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.line{
+    width: 22.02px;
+    top: 32.01px;
+    left: 53.5px; 
+
+}
+input{
+    width: 58px;
+    height: 18px;
+    top:10px;
+    left: 57px;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#B0B0B0;
+    background-color: black;
+
+}
+.charm-cross{
+    left: 150px ;
+    background-image: url('../Home/Image/charm_cross.png');
+}
+.grid-container{
+    width: 1280px;
+    height: 1930px;
+}
+.item1{
+    position: absolute;
+    width: 387.35px;
+    height: 505px;
+    top: 350px;
+    left: 24px;
+    background-color: red;
+}
+.inside, .iside1{
+    position: relative;
+    width: 344.14px;
+    left: 21.61px;
+    top: 23.21px;
+    border-radius: 8px;
+
+}
+.inside{
+    height: 458.58px;
+    display: flex;
+    flex-direction: column;
+}
+.inside1{
+  height: 378.55px;
+  border-radius: 8px;
+  background-image: url(../Home/Image/ob-PhotoRoom1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-color: black;
+
+}
+.about{
+    
+    left: 28.81px;
+    
+    color: white;
+    font-family: "Barlow";
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.charactor{
+    width: 177.67px;
+    height: 24.81px;
+    top: 401.76px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+
+}
+.actor{
+    width: 116.05px;
+    height: 16.81px;
+    top: 437.77px;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.learn-more{
+    width: 70.33px;
+    height: 15.21px;
+    top: 466.58px;
+   
+}

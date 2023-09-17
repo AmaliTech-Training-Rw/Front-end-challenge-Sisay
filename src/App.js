@@ -1,15 +1,17 @@
 import './App.css';
-import Header from './components/Header/Header';
-import { useState } from 'react';
-import Home from './components/Home/Home';
+import Lister from './components/Lister/Lister';
 
+
+//import Home from './components/Home/Home';
+
+//<Header isLister={isListerPage}/>
+  //    <Home />
 
 function App() {
-  const [isListerPage, setListerPage] = useState(false);
+  
   return (
     <div className="App">
-      <Header isLister={isListerPage}/>
-      <Home />
+      <Lister />
     </div>
   );
 }
