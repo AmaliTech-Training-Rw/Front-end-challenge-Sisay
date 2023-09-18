@@ -49,15 +49,83 @@ function Lister(){
                <div className="item1">
                   <div className="inside">
                    <div className="inside1"></div>
-                   <div className="about">
                     <div className="charactor">Obi-Wan Kenobi</div>
                     <div className="actor">Ewan McGregor</div>
                     <div className="learn-more">Learn More{'>'}</div>
                    </div>
                 </div>
-                <div className="item"><div className="iside"></div></div>
-                 <div className="item"><div className="iside"></div></div>
+
+                
+                 <div className="item2">
+                  <div className="inside">
+                   <div className="inside1"></div>
+                   </div>
+                  <div className="charactor">Yoda</div>
+                    <div className="actor">Frank Oz</div>
+                    <div className="learn-more">Learn More{'>'}</div>
                  </div>
+                  
+                 <div className="item3">
+                  
+                   <div className="inside1"></div>
+                   
+                  <div className="charactor">Luke SkyWalker</div>
+                    <div className="actor">Mark Hamill</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                 </div>
+
+                 <div className="item4">
+                   <div className="inside1"></div>
+                  <div className="charactor">Luke SkyWalker</div>
+                    <div className="actor">Mark Hamill</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                 </div>
+
+                 <div className="item5">
+                  <div className="inside">
+                   <div className="inside1"></div>
+                    <div className="charactor">Obi-Wan Kenobi</div>
+                    <div className="actor">Ewan McGregor</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                    </div>
+                   </div>
+
+                  <div className="item6">
+                  <div className="inside">
+                   <div className="inside1"></div>
+                   </div>
+                  <div className="charactor">Yoda</div>
+                    <div className="actor">Frank Oz</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                 </div>
+               
+                 <div className="item7">
+                  <div className="inside">
+                   <div className="inside1"></div>
+                   </div>
+                  <div className="charactor">Yoda</div>
+                    <div className="actor">Frank Oz</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                 </div>
+
+                 <div className="item8">
+                   <div className="inside1"></div>
+                  <div className="charactor">Luke SkyWalker</div>
+                    <div className="actor">Mark Hamill</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                 </div>
+
+                 <div className="item9">
+                  <div className="inside">
+                   <div className="inside1"></div>
+                    <div className="charactor">Obi-Wan Kenobi</div>
+                    <div className="actor">Ewan McGregor</div>
+                    <div className="learn-more">Learn More{'>'}</div>
+                   </div>
+                </div>
+
+
+
             </div>
         </div>
     )
