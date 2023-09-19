@@ -2,6 +2,7 @@ import React from "react";
 import './Lister.css';
 import Header from "../Header/Header";
 import { useState } from 'react';
+import Pagination from "../Pagination/Pagination";
 
            /* */
 function Lister(){
@@ -123,10 +124,11 @@ function Lister(){
                     <div className="learn-more">Learn More{'>'}</div>
                    </div>
                 </div>
-
-
-
             </div>
+            
+            <div className="pagination">
+                <Pagination currentPage={1} />
+              </div>
         </div>
     )
 }

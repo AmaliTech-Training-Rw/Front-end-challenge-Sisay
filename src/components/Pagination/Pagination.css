@@ -1,0 +1,18 @@
+#pagination-container{
+    width: 328.5px;
+    height: 40px;
+    gap: 6.25px;
+
+}
+button , #continous{
+    width: 43px;
+    height: 40px;
+    padding: 12.5px, 5px, 12.5px, 5px;
+    border-radius: 10px;
+    gap: 12.5px;
+    background-color: white;
+
+}
+.current-page{
+    background-color: red;
+}

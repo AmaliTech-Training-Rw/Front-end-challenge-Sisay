@@ -117,7 +117,7 @@ input{
 }
 .grid-container{
     width: 1280px;
-    height: 1930px;
+    height: 1810px;
 }
 .item1,.item2, .item3 , .item4, .item5, .item6, .item7, .item8, .item9{
     position: absolute;
@@ -288,4 +288,11 @@ input{
     font-size: xx-small;
 }
 
-
+.pagination{
+    position:absolute;
+    display: flex;
+    left: 927px;
+    top: 2026px;
+    gap: 6.25px;
+    
+}
