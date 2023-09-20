@@ -1,8 +1,11 @@
 import React from 'react';
 import './Home.css';
+import Header from '../Header/Header';
+
 
 function Home(){
     return(
+      <> <Header />
         <div className='container'>
           <div className='txt'>
               <div className='meet'>Meet</div>
@@ -25,9 +28,13 @@ function Home(){
             <div className='dot-2' ></div>
             <div className='dot-3'></div>
           </div>
+
+               <div className="footer"></div>
+                <div className="sw-logo"></div> <div className="TM-txt">TM & © Lucasfilm Ltd. All Rights Reserved</div>
           
         </div>
+        </>
     );
-
+    
 }
 export default Home;

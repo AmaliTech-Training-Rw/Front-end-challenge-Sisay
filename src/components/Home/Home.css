@@ -1,10 +1,17 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 1410px;
+    background-color: black;
+    border: solid 1px, #FFFFFF;
+}
+
 .container{
     display: flex;
     width: 1280px;
-    height: 1134px;
-    top: 145px;
-    background-color: black;
-    border: solid 1px, #FFFFFF;
+    height: 1293px;
+    
 }
 .photo-room{
     position: absolute;
@@ -131,4 +138,25 @@
 }
 a {
     text-decoration: none;
+}
+.sw-logo{
+    position: absolute;
+    width: 130.91px;
+    height: 56.74px;
+    top: 1335px;
+    left: 24px;
+    background-image: url(../Header/sw_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.TM-txt{
+    position:absolute;
+    width: 372px;
+    height: 24px;
+    top: 1351px;
+    left: 492px;
+    width: 372px;
+    left: 492px;
+    color:white;
 }
