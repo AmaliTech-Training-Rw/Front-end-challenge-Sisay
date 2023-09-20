@@ -127,7 +127,7 @@ function Lister(){
             </div>
             
             <div className="pagination">
-                <Pagination currentPage={1} />
+                <Pagination />
               </div>
         </div>
     )

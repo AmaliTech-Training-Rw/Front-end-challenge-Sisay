@@ -1,0 +1,383 @@
+.details-container{
+    width: 1280px;
+    height: 1410px;
+    top: -312px;
+    left: 2404px;
+    background-color: black;
+
+}
+.frame-12{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 443px;
+    height: 522px;
+    top: 272px;
+    left: 68px;
+    gap: 43px;
+
+}
+
+.gradient-bg{
+    position: absolute;
+    top:147px;
+    left:580px;
+    height: 1000px;
+    width: 713px;
+    background: radial-gradient(50% 50% at 50% 25%, green, black);
+}
+.y-removebg-preview-5{
+    position: absolute;
+    width: 557.33px;
+    height: 836px;
+    top: 174px;
+    left: 678px;
+    background-image: url(../Home/Image/y-removebg-preview\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.yoda-played-by{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 122px;
+
+}
+.yoda{
+    width: 243px;
+    height: 91px;
+    text-align: left;
+    font-family: "Barlow";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: white;
+}
+.played-by{
+    width: 327px;
+    height: 31px;
+    font-family: Barlow;
+    font-size: 30px;
+     font-weight: 700;
+     line-height: 36px;
+    letter-spacing: 0.08em;
+    text-align: left;
+     color: white;
+
+}
+.height-mass-born{
+    position: absolute;
+    display: flex;
+    width: 443px;
+    height: 82px;
+    top: 165px;
+    gap: 18px; 
+ 
+
+}
+.mass, .height, .born{
+    width: 117px;
+    height: 82px;
+    gap: 8px;
+    
+
+}
+.num{
+    position: absolute;
+    width: 74px;
+    height: 37px;
+    top:0;
+    left: 21.5px;
+    font-family: "Barlow";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: white;
+
+}
+.txt {
+    position: relative;
+    width: 117px;
+    height: 37px;
+    top: 45px;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: white;
+}
+.line, .line-2, .line-3 {
+    position: absolute;
+    height : 40px;
+    top: 22px;
+    left: 135px;
+    border: solid 3px red;
+    background-color: red;
+}
+.mass{
+    left: 153px;
+}
+.mass .num{
+    position: relative;
+    left: 21.5px;
+}
+.mass .txt{
+    position: absolute;
+}
+.line-2{
+    position: absolute;
+    left: 288px;
+}
+.born{
+    position: absolute;
+    left: 324px;
+}
+.born .num{
+    position: relative;
+    width: 137px;
+    height: 37px;
+    text-align: center;
+    font-size: 45px;
+
+}
+.born .txt{
+   position: absolute;
+}
+.frame-9{
+    position: absolute;
+    width: 355px;
+    height: 232px;
+    top: 290px;
+    gap: 8px;
+
+}
+.gender, .skin-color, .eye-color, .hair-color, .home-world, .species{
+    display: flex;
+}
+.gender{
+    width: 256px;
+    height: 40px;
+}
+.skin-color{
+    position: absolute;
+    width: 287px;
+    height: 40px;   
+    top: 48px
+
+}
+.eye-color{
+    position: absolute;
+    width: 287px;
+    height: 40px;
+    top: 96px;
+}
+
+.hair-color{
+    position:absolute;
+    width: 287px;
+    height: 40px;
+    top: 144px;
+}
+
+.home-world{
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    top: 192px;
+}
+
+.species{
+   position: absolute;
+   width: 355px;
+   height: 40px;
+   top: 522px;
+   
+
+}
+.value{
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: white;
+}
+.key {
+font-family: "Barlow";
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.08em;
+text-align: left;
+color: white;
+
+}
+
+.vechicle{
+    position: absolute;;
+    display: flex;
+    width: 139px;
+    height: 39px;
+    top: 586px;
+    gap: 6px;
+    color: white;
+    font-family: Barlow;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0.08em;
+    text-align: left;
+
+
+}
+ .line-3{
+    position: absolute;
+    left: 0px;
+    top: 593px;
+    height: 26.02px;
+    
+}
+
+.vechicle-txt{
+    position:absolute;
+    width: 133px;
+    left: 6px;
+    
+}
+
+.lorem-1{
+    position: absolute;
+    display: flex;
+    width: 502px;
+    height: 30px;
+    top: 647px;
+    gap: 45px;
+
+}
+.lorem-container{
+    display: flex;
+    width: 229px;
+    height: 30px;
+    
+}
+
+.elipse{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top:20px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.lorem-txt{
+   position: relative;
+   width: 214px;
+   height: 24px;
+   left: 15px;
+   font-family: "Barlow";
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 36px;
+   letter-spacing: 0.08em;
+   text-align: left;
+   color: white;
+
+}
+
+.starship{
+    position: absolute;
+    display: flex;
+    width: 159px;
+    height: 59px;
+    top: 714px;
+    padding: 10px, 0px, 10px, 10px;
+    gap: 10px;
+    
+}
+ .line-4, .line-5{
+    position: relative;
+    top:11.5px;
+    height: 26.02px;
+    border: solid 3px red;
+    background-color: red;
+}
+.starship-txt, .featured-txt{
+    position: absolute;
+    left: 9px;
+    top:10px;
+    width: 150px;
+    height: 39px;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0.08em;
+    color: white;
+    
+    
+}
+.lorem-2, .lorem-3{
+    position: absolute;
+    display: flex;
+    width: 777px;
+    height: 30px;
+    top:  795px;
+    gap:  45px;
+    
+}
+.featured{
+    position: absolute;
+    display: flex;
+    width: 236px;
+    height: 59px;
+    top: 862px;
+    padding: 10px, 0px, 10px, 10px;
+    gap: 10px;
+    
+}
+.lorem-3{
+    top: 934px;
+
+}
+.single-lorem{
+    position: absolute;
+    top: 934;
+    left:886px;
+}
+.footer{
+    position: absolute;
+    width: 1280px;
+    top: 1293px;
+    border: solid 2px #595959;
+
+}
+.sw-logo{
+    position: absolute;
+    width: 130.91px;
+    height: 56.74px;
+    top: 1335px;
+    left: 24px;
+    background-image: url(../Header/sw_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.TM-txt{
+    position:absolute;
+    width: 372px;
+    height: 24px;
+    top: 1351px;
+    left: 492px;
+    width: 372px;
+    left: 492px;
+    color:white;
+}

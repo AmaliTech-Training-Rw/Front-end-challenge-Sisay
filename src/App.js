@@ -1,5 +1,6 @@
 import './App.css';
-import Lister from './components/Lister/Lister';
+import Details from './components/Details/Details';
+//import Lister from './components/Lister/Lister';
 
 
 //import Home from './components/Home/Home';
@@ -11,7 +12,7 @@ function App() {
   
   return (
     <div className="App">
-      <Lister />
+      <Details />
     </div>
   );
 }
