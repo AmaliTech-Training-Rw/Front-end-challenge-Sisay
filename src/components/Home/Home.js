@@ -5,8 +5,10 @@ import Header from '../Header/Header';
 
 function Home(){
     return(
-      <> <Header />
-        <div className='container'>
+        <div className='home-container'>
+
+          <Header />
+        <div className='container'> 
           <div className='txt'>
               <div className='meet'>Meet</div>
                <div className='your-fav'>
@@ -33,7 +35,7 @@ function Home(){
                 <div className="sw-logo"></div> <div className="TM-txt">TM & © Lucasfilm Ltd. All Rights Reserved</div>
           
         </div>
-        </>
+        </div>
     );
     
 }

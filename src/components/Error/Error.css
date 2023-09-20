@@ -1,0 +1,99 @@
+.error-container{
+    width: 1280px;
+    height: 986px;
+    top: -566px;
+    background-image: url('../Home/Image/err_bg_image.png');
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.err-404{
+    position: absolute;
+    width: 632px;
+    height: 297px;
+    top: 193px; 
+    left: 324px;
+    font-family: "Barlow";
+    font-size: 300px;
+    font-weight: 700;
+    line-height: 360px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    
+
+}
+.err-message{
+    position:absolute;
+    width: 386px;
+    height: 56px;
+    top: 516px;
+    left: 447px;
+    font-family: "Barlow";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+  
+}
+.back-home-btn{
+    position:absolute;
+    width: 316px;
+    height: 95px;
+    top: 620px;
+    left: 482px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    text-decoration: none;
+    border:none;
+
+}
+.txt{
+    position: relative;
+    width: 258px;
+    height: 45px;
+    top: 26px;
+    left: 26px;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    
+}
+.hr-line{
+    width: 1280.02px;
+    top: 836px;
+    border: solid 2px #595959;
+    
+}
+.sw_logo{
+    position:absolute;
+    width: 130.91px;
+    height: 56.74px;
+    top: 900px;
+    left: 41px;
+    background-image: url(../Header/sw_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.TM-txt{
+    position:absolute;
+    width: 372px;
+    height: 24px;
+    top: 916px;
+    left: 454px;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    
+}

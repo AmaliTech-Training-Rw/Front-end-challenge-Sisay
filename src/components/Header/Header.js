@@ -12,7 +12,7 @@ class Header extends React.Component {
        return (
         <div className="container" style={this.props.isLister?{height:164 + 'px'}:{height:145 + 'px'}}>
             <div className='logo'></div>
-            {this.props.isLister?'':
+            {this.props.isLister || this.props.isError?'': 
             <div className='search'>
                <div className='search-img'></div>
                 <div className='search-txt'>Search</div>
